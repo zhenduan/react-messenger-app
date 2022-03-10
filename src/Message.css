@@ -1,0 +1,34 @@
+.message {
+  height: auto;
+  /* max-width: 300px; */
+  width: fit-content;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.user_name {
+  margin-left: 3px;
+}
+
+.message .message_body {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 0px 19px 19px 19px;
+}
+
+.message__user .message_body {
+  background-color: lightskyblue !important;
+  padding: 20px;
+  border-radius: 19px 0px 19px 19px;
+}
+
+.message__user {
+  text-align: right;
+  margin-left: auto;
+  margin-top: 0px;
+}
+
+.message__user span,
+.message__user p {
+  text-align: right;
+}
